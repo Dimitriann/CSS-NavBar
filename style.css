@@ -110,3 +110,10 @@ main{
       background: var(--bg-secondary);
       color: var(--text-secondary);
   }
+
+  .logo{
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      text-align: center;
+  }

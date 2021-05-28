@@ -4,8 +4,9 @@
     --text-primary:#b6b6b6;
     --text-secondary:#ececec;
     --bg-primary:#23232e;
-    --bg-secondary:#141418;
+    --bg-secondary:#861069;
     --transition-speed: 500ms;
+    transition:all var(--transition-speed) ease-out;
 }
 
 body{
@@ -16,7 +17,7 @@ body{
 }
 
 body::-webkit-scrollbar{
-    width: 0.25;
+    width: 0.3rem;
 }
 
 body::-webkit-scrollbar-track{
@@ -24,7 +25,7 @@ body::-webkit-scrollbar-track{
 }
 
 body::-webkit-scrollbar-thumb{
-    background: #6649b8;    
+    background:var(--bg-primary);    
 }
 
 main{
@@ -67,7 +68,7 @@ main{
     height: 5rem;
     color: var(--text-primary);
     text-decoration: none;
-    filter: grayscale(100%) opacity(0.7);
+    filter: grayscale(100%) opacity(1);
     transition: var(--transition-speed) ;
 }
 
